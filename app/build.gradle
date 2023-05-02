@@ -10,13 +10,13 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.appexercicios"
+        applicationId "com.focofitness"
         minSdk 21
         targetSdk 32
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "com.example.appexercicios.HiltTestRunner"
+        testInstrumentationRunner "com.focofitness.HiltTestRunner"
         vectorDrawables {
             useSupportLibrary true
         }
@@ -138,5 +138,6 @@ dependencies {
 
     //too large tool
     implementation 'com.gu.android:toolargetool:0.3.0'
+
 
 }
